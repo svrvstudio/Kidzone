@@ -1,0 +1,41 @@
+
+body{background-image: url("../images/fondarriere.png");
+	background-size: 150%;
+}
+
+/*Navbar*/
+.navbaracc{
+	background-color:#137C8B;
+	font-size: 20px;
+}
+
+.navbaracc .nav-link {
+	border-bottom: 1px solid transparent;
+	transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+
+.navbaracc .nav-link:hover{
+	padding-bottom: 20px;
+	border-bottom-color: var(--bs-teal);
+}
+
+/*Titres*/
+h1{font-family:pangolin;
+	font-size: 70px;
+	color: rgb(255, 94, 0);
+}
+h3{font-family: pangolin;
+color:#137C8B;}
+
+/*Bannière*/
+#zone{
+	background-color:rgb(228, 248, 248);
+	font-family: pangolin;
+	font-size: 20px;
+} 
+
+#footer{background-color: #137C8B;
+}
+#zones{background-color: firebrick;}
+
+

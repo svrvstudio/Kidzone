@@ -1,0 +1,32 @@
+ body{background-image: url("../images/fondarriere.png");
+        background-size: 100%;
+    }
+    
+    /*Navbar*/
+    .navbaracc{
+        background-color:#137C8B;
+        font-size: 20px;
+    }
+    
+    .navbaracc .nav-link {
+        border-bottom: 1px solid transparent;
+        transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+    }
+    
+    .navbaracc .nav-link:hover{
+        padding-bottom: 20px;
+        border-bottom-color: var(--bs-teal);
+    }
+    
+    h1{font-family:pangolin;
+        font-size: 70px;
+        color: rgb(255, 94, 0);
+    }
+    h2{font-family: pangolin;
+        font-size: 60px;}
+  
+    
+    #footer{background-color: #137C8B;
+    }
+    
+    
